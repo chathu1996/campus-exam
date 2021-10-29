@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zen Antique', serif;
+}
+/* Header section Start */
+.navbar {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  position: fixed;
+}
+
+.navbar-logo h1 {
+  color: white;
+  width: 100%;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-left: 1100px;
+}
+.navbar-links .work{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-button {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 5rem;
+  border: 0;
+  background-color: #38762E;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+/* Hero Section End */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  color: white;
+}
+
+.hero-text-container {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 60%;
+  padding-left: 100px;
+  margin-left: 1000px;
+  margin-top: 200px;
+}
+.hero-text h1 {
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.hero-text-container .para{
+  margin-bottom: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-container img {
+  width: 60%;
+}
+.hero-text .para1{
+  margin-bottom: 500px;
+}
+
+.grid-text-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.grid-text-container1 p{
+  font-size: 30px;
+}
+
+.grid-text {
+  width: 50%;
+  color: #183A24;
+}
+
+.grid-text h1 { 
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+}
+
+.image-container .developer {
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+  margin-top: 50px;
+  height: 75%;
+  border-radius: 150px;
+}
+.grid-text .para{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.grid-text .heading{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.grid-text-container1 button{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.projects h1{
+  background-color: black;
+  color: #818cf8;
+  padding: 200px;
+}
+.projects .heading{
+  padding-left: 700px;
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid-text-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 450px;
+}
+.image-container2{
+  margin-top: 40px;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid-text-container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.image-container3{
+  margin-left: 350px;
+}
+.grid-container4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid-text-container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 350px;
+}
+.image-container4{
+  margin-top: 40px;
+}
+.contact{
+  background-color: black;
+}
+.contact h1{
+  color: rgb(202, 105, 60);
+  margin-left: 810px;
+  font-size: 50px;
+}
+.contact span{
+  color: white;
+  font-size: 50px;
+  margin: 400px;
+  margin-left: 850px;
+}
+
